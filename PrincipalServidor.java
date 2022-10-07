@@ -13,6 +13,6 @@ public class PrincipalServidor {
 	public static void main(String[] args) {
 		Frases mensageiro=new Frases();
 		String mensagem=mensageiro.sorteiaFrase();
-		System.out.println(mensagem);
+		
 	}
 }
