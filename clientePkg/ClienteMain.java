@@ -1,4 +1,4 @@
-package clientePkg;
+
 
 import java.io.ObjectInputStream;
 import java.net.Socket;
