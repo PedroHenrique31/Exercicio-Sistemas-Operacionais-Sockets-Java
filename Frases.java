@@ -8,7 +8,7 @@ public class Frases {
 	private Random sorteia;
 
 	public Frases() {
-		this.frases=new ArrayList<String>(60);
+		this.frases=new ArrayList<String>(61);
 		frases.add("A vida trará coisas boas se tiver paciência.");
 		frases.add("Demonstre amor e alegria em todas as oportunidades e verá que a paz nasce dentro de si");
 		frases.add("Não compense na ira o que lhe falta na razão.");
@@ -73,8 +73,9 @@ public class Frases {
 		
 	}
 	public String sorteiaFrase() {
+		int numFrases=frases.size();
 		sorteia=new Random();
-		int posicao=sorteia.nextInt(61);
+		int posicao=sorteia.nextInt(numFrases);
 		String frase=frases.get(posicao);
 		return frase;
 		

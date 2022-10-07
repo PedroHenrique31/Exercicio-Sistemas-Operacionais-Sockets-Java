@@ -9,7 +9,7 @@ package Main;
  *   mensagens aleatórias de boa sorte. 
  *  O array pode conter mensagens estáticas
  *  */
-public class Principal {
+public class PrincipalServidor {
 	public static void main(String[] args) {
 		Frases mensageiro=new Frases();
 		String mensagem=mensageiro.sorteiaFrase();
