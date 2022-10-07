@@ -1,10 +1,10 @@
-package Servidor;
+package clientePkg;
 
 import java.io.ObjectInputStream;
 import java.net.Socket;
 
 public class ClienteMain {
-	public static void main(String[] args) {
+	public static void work(String[] args) {
 		System.out.println("Olá sou o cliente, vamos sortear uma frase.");
 		try {
 			Socket conxServidor= new Socket("Pedro",12345); // abre uma conexão na porta 12345
